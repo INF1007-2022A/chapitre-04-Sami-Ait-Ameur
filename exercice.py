@@ -11,11 +11,11 @@ def remove_third_char(string: str) -> str:
 
 
 def replace_char(string: str, old_char: str, new_char: str) -> str:
-    pass
+   return string.replace('w', 'z')
 
 
 def get_number_of_char(string: str, char: str) -> int:
-    pass
+    return string.count('l')
 
 
 def get_number_of_words(sentence: str, word: str) -> int:
